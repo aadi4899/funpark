@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bareilly Central – Khao. Khelo. Enjoy Karo.</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Rubik:wght@600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     TOP LEASING MARQUEE
+════════════════════════════════════════════════════ -->
+<div id="top-ticker">
+  <div class="ticker-inner ticker-scroll">
+    <span class="ticker-item">🚀 Book Your Space Now! Limited Stalls Available at Bareilly's Premier Destination <span class="material-symbols-outlined">rocket_launch</span></span>
+    <span class="ticker-item">🎉 Grand Opening Offer – 20% OFF on All Food Stall Bookings This Month! <span class="material-symbols-outlined">celebration</span></span>
+    <span class="ticker-item">🚀 Book Your Space Now! Limited Stalls Available at Bareilly's Premier Destination <span class="material-symbols-outlined">rocket_launch</span></span>
+    <span class="ticker-item">🎉 Grand Opening Offer – 20% OFF on All Food Stall Bookings This Month! <span class="material-symbols-outlined">celebration</span></span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════════ -->
+<header id="site-header">
+  <div class="header-inner">
+    <a href="home.html" class="site-logo">BAREILLY<br/><span>CENTRAL</span></a>
+
+    <nav class="desktop-nav">
+      <a href="home.html" class="nav-link active">Home</a>
+      <a href="fun-zone.html" class="nav-link">Fun Zones</a>
+      <a href="food.html" class="nav-link">Food Court</a>
+      <a href="events.html" class="nav-link">Events</a>
+      <a href="bazar.html" class="nav-link">Craft Bazaar</a>
+      <a href="book.html" class="nav-link">Book a Stall</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="book.html" class="btn-book-header">Book a Stall</a>
+      <button id="ham-btn" aria-label="Toggle menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu">
+    <a href="home.html" class="active">🏠 Home</a>
+    <a href="fun-zone.html">🎠 Fun Zones</a>
+    <a href="food.html">🍔 Food Court</a>
+    <a href="events.html">🎭 Events</a>
+    <a href="bazar.html">🧵 Craft Bazaar</a>
+    <a href="book.html">📋 Book a Stall</a>
+    <a href="book.html" class="mobile-cta">🚀 Book a Stall Now</a>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════ -->
+<section id="hero">
+  <!-- Slide 1 -->
+  <div class="hero-slide active">
+    <img class="hero-slide-bg" src="./assest/home-slide1.png" alt="Festival"/>
+    <div class="hero-overlay-confetti"></div>
+    <div class="hero-content">
+      <span class="hero-pill">🎉 BAREILLY KA NAYA ADDA!</span>
+      <h1 class="hero-h1">Khao. Khelo. Enjoy Karo. ✨</h1>
+      <p class="hero-tagline">— Bareilly's premier fun &amp; food destination —</p>
+      <p class="hero-body">12+ experience zones, 50+ food brands, endless fun. Your weekend starts here!</p>
+      <div class="hero-btns">
+        <a href="fun-zone.html" class="btn btn-primary">Explore Zones</a>
+        <a href="food.html" class="btn btn-secondary">View Menu</a>
+        <a href="" target="_blank" class="btn btn-tertiary">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="hero-slide">
+    <img class="hero-slide-bg" src="" alt="Amphitheatre"/>
+    <div class="hero-overlay-dark"></div>
+    <div class="hero-content">
+      <span class="hero-pill">🎭 LIVE ENTERTAINMENT</span>
+      <h1 class="hero-h1">Live Shows Har Raat! 🌟</h1>
+      <p class="hero-body">Sufi nights, comedy shows, kids talent hunts and more at Bareilly's largest amphitheatre.</p>
+      <div class="hero-btns">
+        <a href="events.html" class="btn btn-secondary">View Events</a>
+        <a href="book.html" class="btn btn-primary">Book Tickets</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="hero-slide">
+    <img class="hero-slide-bg" src="" alt="Kids Zone"/>
+    <div class="hero-overlay-warm"></div>
+    <div class="hero-content">
+      <span class="hero-pill hero-pill-yellow">🧒 KIDS PLAY ZONE</span>
+      <h1 class="hero-h1">Bachpan Wali Khushi! 🎠</h1>
+      <p class="hero-body hero-body-yellow">Giant slides, STEM zones, soft play forests — India's safest &amp; most exciting kids zone in Bareilly!</p>
+      <div class="hero-btns">
+        <a href="fun-zone.html" class="btn btn-yellow">Explore Kids Zone</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="slider-dots">
+    <button class="slider-dot active" data-slide="0"></button>
+    <button class="slider-dot" data-slide="1"></button>
+    <button class="slider-dot" data-slide="2"></button>
+  </div>
+
+  <!-- Bottom tickers -->
+
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     ZONES
+════════════════════════════════════════════════════ -->
+<section id="zones">
+  <div class="section-center">
+    <span class="section-label section-label-purple">🏠 BAREILLY CENTRAL MEIN KYA HAI?</span>
+    <h2 class="section-title">Ek Jagah, Hazaar Mazaa! 🎉</h2>
+  </div>
+  <div class="zone-grid">
+    <a href="fun-zone.html" class="zone-card zone-atrium">
+      <span class="material-symbols-outlined zone-card-icon-bg">stadium</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🏛️</span>
+        <h3 class="zone-card-title">The Atrium</h3>
+        <p class="zone-card-sub">Grand celebrations start here</p>
+      </div>
+    </a>
+    <a href="food.html" class="zone-card zone-food">
+      <span class="material-symbols-outlined zone-card-icon-bg">restaurant</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🍔</span>
+        <h3 class="zone-card-title">Food Court</h3>
+        <p class="zone-card-sub">Global cuisines, local taste</p>
+      </div>
+    </a>
+    <a href="fun-zone.html" class="zone-card zone-walking">
+      <span class="material-symbols-outlined zone-card-icon-bg">directions_walk</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🚶</span>
+        <h3 class="zone-card-title">Walking Street</h3>
+        <p class="zone-card-sub">Stroll, talk, and relax</p>
+      </div>
+    </a>
+    <a href="food.html" class="zone-card zone-chaupati">
+      <span class="material-symbols-outlined zone-card-icon-bg">ramen_dining</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🍢</span>
+        <h3 class="zone-card-title">Chaupati</h3>
+        <p class="zone-card-sub">Pure Desi Street food vibes</p>
+      </div>
+    </a>
+    <a href="fun-zone.html" class="zone-card zone-kids">
+      <span class="material-symbols-outlined zone-card-icon-bg">child_care</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🧒</span>
+        <h3 class="zone-card-title">Kids Play</h3>
+        <p class="zone-card-sub">Safe and fun zone for kids</p>
+      </div>
+    </a>
+    <a href="bazar.html" class="zone-card zone-craft">
+      <span class="material-symbols-outlined zone-card-icon-bg">storefront</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🧵</span>
+        <h3 class="zone-card-title">Craft Bazaar</h3>
+        <p class="zone-card-sub">Artisanal gems and souvenirs</p>
+      </div>
+    </a>
+    <a href="events.html" class="zone-card zone-amphitheatre">
+      <span class="material-symbols-outlined zone-card-icon-bg">theater_comedy</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🎭</span>
+        <h3 class="zone-card-title">Amphitheatre</h3>
+        <p class="zone-card-sub">Live music and performances</p>
+      </div>
+    </a>
+    <a href="bazar.html" class="zone-card zone-super">
+      <span class="material-symbols-outlined zone-card-icon-bg">shopping_cart</span>
+      <div class="zone-card-content">
+        <span class="zone-card-emoji">🛒</span>
+        <h3 class="zone-card-title">Supermarket</h3>
+        <p class="zone-card-sub">Weekly shopping made easy</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOD COURT
+════════════════════════════════════════════════════ -->
+<section id="food">
+  <div class="food-header">
+    <div>
+      <span class="section-label section-label-secondary">🍔 FOOD COURT</span>
+      <h2 class="section-title">Pet Pooja Time! 🍽️ Kya Khaoge Aaj?</h2>
+    </div>
+    <div class="food-tabs">
+      <button class="food-tab active" data-zone="all">All Zones</button>
+      <button class="food-tab" data-zone="main">Main Court</button>
+      <button class="food-tab" data-zone="terrace">Terrace Dining</button>
+      <button class="food-tab" data-zone="express">Express Hub</button>
+    </div>
+  </div>
+
+  <div class="food-hero-grid">
+    <div class="food-hero-img">
+      <img src="./assest/food1.png" alt="Biryani"/>
+      <div class="food-hero-overlay">
+        <h3>Royal Biryani Fest</h3>
+        <p>The soul of Bareilly on a plate.</p>
+      </div>
+    </div>
+    <div class="food-hero-img">
+      <img src="./assest/food2.png" alt="Street Eats"/>
+      <div class="food-hero-overlay">
+        <h3>Global Street Eats</h3>
+        <p>Tacos, Sushi, and Waffles galore!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="food-cards-grid" id="food-cards">
+    <div class="food-card food-card-purple" data-zone="main">
+      <img src="./assest/food3.png" alt="Pizza"/>
+      <h4>Paneer Overload Pizza</h4>
+      <p class="zone-label">Zone: Main Court</p>
+      <div class="food-card-footer">
+        <span class="food-price">₹299</span>
+        <button class="food-add-btn"><span class="material-symbols-outlined" style="font-size:1rem">add</span></button>
+      </div>
+    </div>
+    <div class="food-card food-card-pink" data-zone="express">
+      <img src="./assest/food4.png" alt="Burger"/>
+      <h4>Spicy Peri Burger</h4>
+      <p class="zone-label">Zone: Express Hub</p>
+      <div class="food-card-footer">
+        <span class="food-price">₹189</span>
+        <button class="food-add-btn"><span class="material-symbols-outlined" style="font-size:1rem">add</span></button>
+      </div>
+    </div>
+    <div class="food-card food-card-green" data-zone="terrace">
+      <img src="./assest/food5.png" alt="Dimsum"/>
+      <h4>Rainbow Dimsum Box</h4>
+      <p class="zone-label">Zone: Terrace Dining</p>
+      <div class="food-card-footer">
+        <span class="food-price">₹249</span>
+        <button class="food-add-btn"><span class="material-symbols-outlined" style="font-size:1rem">add</span></button>
+      </div>
+    </div>
+    <div class="food-card food-card-orange" data-zone="main">
+      <img src="./assest/food3.png" alt="Sundae"/>
+      <h4>Fudge Monster Jar</h4>
+      <p class="zone-label">Zone: Main Court</p>
+      <div class="food-card-footer">
+        <span class="food-price">₹210</span>
+        <button class="food-add-btn"><span class="material-symbols-outlined" style="font-size:1rem">add</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-cta">
+    <a href="food.html" class="btn-link btn-link-primary">View Full Menu <span class="material-symbols-outlined">arrow_forward</span></a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     WALKING STREET
+════════════════════════════════════════════════════ -->
+<section id="walking">
+  <div class="walking-header">
+    <span class="section-label section-label-purple" style="background:rgba(240,219,255,.2);color:#deb7ff">🚶 WALKING STREET</span>
+    <h2 class="section-title">Shaam Ko Niklo, Yahan Chalte Aao! 🌆</h2>
+  </div>
+  <div class="walking-scroll no-scrollbar">
+    <div class="walking-img"><img src="./assest/gall-1.png" alt="Walking Street"/></div>
+    <div class="walking-img"><img src="./assest/gall-2.png" alt="Friends"/></div> 
+    <div class="walking-img"><img src="./assest/gall-3.png" alt="Terrace"/></div>
+    <div class="walking-img"><img src="./assest/gall-4.png" alt="Night Market"/></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     KIDS ZONE
+════════════════════════════════════════════════════ -->
+<section id="kids">
+  <span class="material-symbols-outlined kids-float-icon-1 animate-bounce">bubble</span>
+  <span class="material-symbols-outlined kids-float-icon-2 animate-pulse">star</span>
+  <div class="kids-inner">
+    <div class="kids-text">
+      <span class="section-label" style="background:#6dfe9c;color:#00210c;border-radius:9999px">🧒 KIDS PLAY ZONE</span>
+      <h2 class="kids-h2">Bachpan Wali Khushi Wapas! 🎠</h2>
+      <ul class="kids-list">
+        <li class="kids-list-item"><span class="material-symbols-outlined kids-list-icon">skateboarding</span>India's Safest Giant Slides</li>
+        <li class="kids-list-item"><span class="material-symbols-outlined kids-list-icon">smart_toy</span>STEM-based Activity Zones</li>
+        <li class="kids-list-item"><span class="material-symbols-outlined kids-list-icon">health_and_safety</span>CCTV Monitored Safe Environment</li>
+      </ul>
+      <a href="fun-zone.html" class="btn btn-dark" style="display:inline-block;margin-top:1.5rem">Check Entry Passes</a>
+    </div>
+    <div class="kids-img-wrap">
+      <div class="kids-img-glow"></div>
+      <img class="kids-img" src="" alt="Kids Zone"/>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     EVENTS
+════════════════════════════════════════════════════ -->
+<section id="events">
+  <div class="events-glow-1"></div>
+  <div class="events-glow-2"></div>
+  <div class="events-inner">
+    <div class="events-center">
+      <span class="section-label section-label-white">🎭 EVENTS &amp; ENTERTAINMENT</span>
+      <h2 class="events-h2">Live Shows, Yaadgaar Raat! 🌟</h2>
+    </div>
+    <div class="events-grid">
+      <div class="event-card">
+        <img src="./assest/ev-1.png" alt="Sufi Night"/>
+        <h4>Sufi Night Live</h4>
+        <p>Every Friday • 7:00 PM onwards</p>
+      </div>
+      <div class="event-card">
+        <img src="./assest/ev-2.png" alt="Comedy"/>
+        <h4>Laughter Express</h4>
+        <p>Saturdays • 8:30 PM onwards</p>
+      </div>
+      <div class="event-card">
+        <img src="./assest/ev-3.png" alt="Kids Talent"/>
+        <h4>Kids Talent Hunt</h4>
+        <p>Sundays • 11:00 AM onwards</p>
+      </div>
+    </div>
+    <div class="section-cta">
+      <a href="events.html" class="btn-link btn-link-secondary">View All Events <span class="material-symbols-outlined">arrow_forward</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     STATS / WHY VISIT
+════════════════════════════════════════════════════ -->
+<section id="stats">
+  <div class="section-center">
+    <span class="section-label section-label-secondary">💡 KYUN AANA CHAHIYE?</span>
+    <h2 class="section-title">Bareilly Mein Pehli Baar! 🎉</h2>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-item">
+      <div class="stat-circle stat-purple">500+</div>
+      <h4 class="stat-label">Car Parking</h4>
+    </div>
+    <div class="stat-item">
+      <div class="stat-circle stat-pink">50+</div>
+      <h4 class="stat-label">Food Brands</h4>
+    </div>
+    <div class="stat-item">
+      <div class="stat-circle stat-green">12</div>
+      <h4 class="stat-label">Exp. Zones</h4>
+    </div>
+    <div class="stat-item">
+      <div class="stat-circle stat-orange">#1</div>
+      <h4 class="stat-label">Destination</h4>
+    </div>
+  </div>
+  <div class="why-grid">
+    <div class="why-card why-card-purple">
+      <span class="why-emoji">👨‍👩‍👧‍👦</span>
+      <h3>Family First</h3>
+      <p>Designed with all age groups in mind, from toddlers to grandparents.</p>
+    </div>
+    <div class="why-card why-card-pink">
+      <span class="why-emoji">🧼</span>
+      <h3>Clean &amp; Green</h3>
+      <p>Impeccable hygiene standards and sustainable architecture.</p>
+    </div>
+    <div class="why-card why-card-green">
+      <span class="why-emoji">🎈</span>
+      <h3>New Every Day</h3>
+      <p>Daily events, pop-ups, and changing themes mean no two visits are the same.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     LEASING CTA
+════════════════════════════════════════════════════ -->
+<section id="leasing">
+  <div class="leasing-inner">
+    <div>
+      <span class="leasing-tag">APNA STALL LAGAO!</span>
+      <h2 class="leasing-h2" style="margin-top:1.5rem">Apna Business Yahan Shuru Karo! 🚀</h2>
+      <div class="leasing-options" style="margin-top:1.5rem">
+        <div class="leasing-option"><h4>Food Stalls</h4><p>80–250 sqft options</p></div>
+        <div class="leasing-option"><h4>Retail Kiosks</h4><p>Central corridor spots</p></div>
+        <div class="leasing-option"><h4>Flagship Stores</h4><p>Premium street-front locations</p></div>
+        <div class="leasing-option"><h4>Pop-up Spaces</h4><p>Weekend-only rentals</p></div>
+      </div>
+    </div>
+    <div>
+      <div class="leasing-form-wrap">
+        <h3>Leasing Inquiry</h3>
+        <div class="form-fields">
+          <div>
+            <label class="form-label">Aapka Naam</label>
+            <input class="form-input" placeholder="Enter Full Name" type="text"/>
+          </div>
+          <div>
+            <label class="form-label">Phone Number</label>
+            <input class="form-input" placeholder="+91 00000 00000" type="tel"/>
+          </div>
+          <div>
+            <label class="form-label">Business Type</label>
+            <select class="form-select">
+              <option>Food &amp; Beverage</option>
+              <option>Fashion &amp; Apparel</option>
+              <option>Entertainment/Play</option>
+              <option>Handicrafts</option>
+            </select>
+          </div>
+          <button class="form-submit" onclick="alert('Thank you! We will contact you shortly 🎉')">Send Request 🚀</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer id="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">BAREILLY<br/><span>CENTRAL</span></div>
+      <p class="footer-desc" style="margin-top:1.5rem">Bareilly ka naya heart. Destination for foodies, families, and fun-seekers. Built with love for the Bareilly spirit.</p>
+      <div class="footer-social" style="margin-top:1.5rem">
+        <button class="footer-social-btn"><span class="material-symbols-outlined">social_leaderboard</span></button>
+        <button class="footer-social-btn"><span class="material-symbols-outlined">camera</span></button>
+        <button class="footer-social-btn"><span class="material-symbols-outlined">youtube_activity</span></button>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="book.html">Leasing Information</a></li>
+        <li><a href="fun-zone.html">Plan Your Visit</a></li>
+        <li><a href="food.html">Food Court Brands</a></li>
+        <li><a href="events.html">Events Calendar</a></li>
+        <li><a href="bazar.html">Craft Bazaar</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Stay updated with latest events and offers!</p>
+      <div class="footer-email-row">
+        <input class="footer-email-input" placeholder="Email Address" type="email"/>
+        <button class="footer-join-btn" onclick="alert('Subscribed! 🎉')">JOIN</button>
+      </div>
+      <div class="footer-contact">
+        <p>📍 DD Puram, Bareilly, UP – 243001</p>
+        <p>📞 +91 581 222 3344 (10 AM – 11 PM)</p>
+        <p>✉️ hello@bareillycentral.com</p>
+      </div>
+      <p class="footer-copy">© 2024 Bareilly Central. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════
+     FLOATING WHATSAPP
+════════════════════════════════════════════════════ -->
+<div id="wa-float">
+  <div class="wa-btn-wrap">
+    <div class="wa-ping"></div>
+    <a class="wa-btn" href="" target="_blank">
+      <span class="material-symbols-outlined"><img src="./assest/whatsapp.png"></span>
+    </a>
+    <span class="wa-tooltip">WhatsApp Us! 👋</span>
+  </div>
+</div>
+
+<script>
+// ── Hamburger ──
+const hamBtn = document.getElementById('ham-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+hamBtn.addEventListener('click', () => {
+  hamBtn.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+});
+document.addEventListener('click', e => {
+  if (!hamBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+    hamBtn.classList.remove('open');
+    mobileMenu.classList.remove('open');
+  }
+});
+
+// ── Header shadow on scroll ──
+const header = document.getElementById('site-header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 30);
+}, { passive: true });
+
+// ── Hero Slider ──
+const slides = document.querySelectorAll('.hero-slide');
+const dots   = document.querySelectorAll('.slider-dot');
+let current  = 0;
+let sliderTimer;
+
+function goToSlide(n) {
+  slides[current].classList.remove('active');
+  dots[current].classList.remove('active');
+  current = (n + slides.length) % slides.length;
+  slides[current].classList.add('active');
+  dots[current].classList.add('active');
+}
+
+function startSlider() {
+  sliderTimer = setInterval(() => goToSlide(current + 1), 5000);
+}
+
+dots.forEach((dot, i) => {
+  dot.addEventListener('click', () => {
+    clearInterval(sliderTimer);
+    goToSlide(i);
+    startSlider();
+  });
+});
+
+startSlider();
+
+// ── Food Tabs ──
+const foodTabs  = document.querySelectorAll('.food-tab');
+const foodCards = document.querySelectorAll('.food-card');
+
+foodTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const zone = tab.dataset.zone;
+    foodTabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    foodCards.forEach(card => {
+      card.style.display = (zone === 'all' || card.dataset.zone === zone) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
